@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import portrait from "@/assets/sohin-portrait-clean.png.asset.json";
+import portrait from "@/assets/sohin-portrait-clean.png";
 
 const stats = [
   { num: "12", label: "Years in NVH" },
@@ -57,7 +57,7 @@ export function Hero() {
             className="relative h-[360px] w-[280px] overflow-hidden rounded-sm border border-rule bg-paper-warm shadow-sm"
           >
             <img
-              src={portrait.url}
+              src={portrait}
               alt="Sohin S. Doshi — Senior Manager, NVH & AI/ML Engineer"
               className="h-full w-full object-cover object-top"
             />
